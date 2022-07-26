@@ -1,0 +1,62 @@
+/**{
+    border: 1px solid red
+}*/
+body{
+    margin: auto;
+}
+img{
+    display: block;
+}
+#mainheader{
+    max-width:700px;
+    margin:auto;
+}
+
+header{
+        background-color: #f4ede4;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #headerButtons{
+        display: flex;
+        justify-content: space-between;
+    }
+    #header{
+        display: flex;
+        justify-content: space-between;
+    }
+    #customers{
+        display:flex;
+        justify-content: space-between;
+    }
+    .button1{
+        background-color: #6b2d72;
+        color:white;
+        height: 30px;
+    }
+    .button2{
+        background-color: #4285f4;
+        color:white;
+        height: 30px;
+    }
+.table{
+    text-align: center;
+    margin-top:-20px;
+   }
+   table, tr, th, td{
+    margin:auto;
+    border: none;
+   }
+.features{
+    display:flex;
+    justify-content: space-between;
+    felx-wrap: wrap;
+    }
+    .feature1, .feature2, .feature3, .feature4{
+        max-width: 20vw;
+    }
+
+    
